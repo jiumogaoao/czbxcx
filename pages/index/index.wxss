@@ -1,0 +1,90 @@
+/**index.wxss**/
+swiper{
+  width:750rpx;
+  height: 360rpx;
+}
+swiper image{
+  width: 750rpx;
+  height: 360rpx;
+  display: block;
+  float: left;
+}
+.navframe{
+  margin-top: 13rpx;
+}
+.nav{
+  width: 33%;
+  height: 157rpx;
+  border-right:2rpx solid #bbbcc0;
+  border-bottom: 2rpx solid #bbbcc0;
+  float:left;
+  background-color: #fff;
+}
+.nav.right{
+  border-right:0rpx;
+}
+.nav.bottom{
+  border-bottom:0rpx;
+}
+.nav image{
+  width: 72rpx;
+  height: 58rpx;
+  display: block;
+  margin:auto;
+  margin-top: 20rpx;
+}
+.nav view{
+  font-size: 20rpx;
+  text-align: center;
+  margin-top: 15rpx;
+}
+.bottomFrame{
+  width: 750rpx;
+  height: 235rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.bottomPoint{
+  float: left;
+  height: 142rpx;
+  width: 50%;
+  position: relative;
+  top:45rpx;
+}
+.bottomPoint.left{
+  width: 49%;
+  border-right:1px solid #bdbec2; 
+}
+.bottomPoint image{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
+  position: absolute;
+  top:32rpx;
+  left: 32rpx;
+}
+.bottomPoint .title{
+  font-size: 14rpx;
+  position: absolute;
+  top:50rpx;
+  left: 142rpx;
+}
+.bottomPoint .subTitle{
+  font-size: 10rpx;
+  position: absolute;
+  top:70rpx;
+  left: 142rpx;
+  color: #c2c2c2;
+}
+.bottomPoint .price{
+  font-size: 18rpx;
+  position: absolute;
+  top:89rpx;
+  left: 230rpx;
+}
+.bottomPoint .priceTitle{
+  font-size: 14rpx;
+  position: absolute;
+  top:89rpx;
+  left: 172rpx;
+}

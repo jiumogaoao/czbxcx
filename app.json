@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/general/general"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#94979c",
+    "navigationBarTitleText": "车族宝",
+    "navigationBarTextStyle":"#fff"
+  }
+}

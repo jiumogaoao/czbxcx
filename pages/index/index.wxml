@@ -1,0 +1,66 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="images/banner.jpg" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="navframe">
+  <view class="nav" bindtap="goGeneral">
+    <image src="images/icon0.jpg"/>
+    <view>车辆综合服务</view>
+  </view>
+  <view class="nav">
+    <image src="images/icon1.jpg"/>
+    <view>会员活动</view>
+  </view>
+  <view class="nav right">
+    <image src="images/icon2.jpg"/>
+    <view>众筹项目</view>
+  </view>
+  <view class="nav">
+    <image src="images/icon3.jpg"/>
+    <view>房车生活</view>
+  </view>
+  <view class="nav">
+    <image src="images/icon4.jpg"/>
+    <view>车主商场</view>
+  </view>
+  <view class="nav right">
+    <image src="images/icon5.jpg"/>
+    <view>联盟商家</view>
+  </view>
+  <view class="nav bottom">
+    <image src="images/icon6.jpg"/>
+    <view>汽车商城</view>
+  </view>
+  <view class="nav bottom">
+    <image src="images/icon7.jpg"/>
+    <view>房产商城</view>
+  </view>
+  <view class="nav right bottom">
+    <image src="images/icon8.jpg"/>
+    <view>养老保单</view>
+  </view>
+  <view class="clear"></view>
+</view>
+<view class="bottomFrame">
+  <view class="bottomPoint left">
+    <image src="images/car0.jpg"/>
+    <view class="title">路虎16款才有揽胜运动版</view>
+    <view class="subTitle">HSE</view>
+    <view class="price">RMB 890,000</view>
+  </view>
+  <view class="bottomPoint">
+    <image src="images/car0.jpg"/>
+    <view class="title">丰田16款霸道</view>
+    <view class="subTitle">2700</view>
+    <view class="priceTitle">RMB</view>
+    <view class="price"> 448,000</view>
+  </view>
+  <view class="clear"></view>
+</view>
+</view>

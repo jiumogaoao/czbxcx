@@ -1,0 +1,14 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  position: absolute;
+  top:0rpx;
+  left: 0rpx;
+  right: 0rpx;
+  bottom: 0rpx;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+} 
+.clear{
+  clear: both;
+}

@@ -1,0 +1,78 @@
+.navFrame{
+    height: 113rpx;
+    width: 750rpx;
+}
+.nav{
+    height: 113rpx;
+    width: 170rpx;
+    float: left;
+    line-height: 113rpx;
+    text-align: center;
+    font-size: 28rpx;
+}
+.nav.first{
+    margin-left: 25rpx;
+}
+.nav.hl{
+    background-color: #90c320;
+    color: #fff;
+}
+#totalSwiper{
+    position: absolute;
+    top:113rpx;
+    bottom: 0rpx;
+    left: 0rpx;
+    right: 0rpx;
+    height: auto;
+}
+.page{
+    width: 750rpx;
+}
+#oilSwiper{
+    width: 750rpx;
+    height: 344rpx;
+}
+#oilSwiper image{
+    width: 750rpx;
+    height: 344rpx;
+}
+#oil .space{
+    width: 750rpx;
+    height: 20rpx;
+    background-color: #fff;
+}
+#oil .des{
+    width: 750rpx;
+    height: 70rpx;
+    text-align: center;
+    line-height: 70rpx;
+    font-size: 28rpx;
+}
+#oil .red{
+    color: red;
+}
+#oil .selectFrame{
+    width: 750rpx;
+    height: 32rpx;
+    background-color: #fff;
+}
+#oil #cardSelect{
+    font-size: 16rpx;
+    line-height: 32rpx;
+    padding-left: 85rpx;
+    float: left;
+}
+#oil #placeSelect{
+    font-size: 16rpx;
+    line-height: 32rpx;
+    padding-right: 85rpx;
+    float: right;
+}
+#oil .cardTitle{
+    font-size: 20rpx;
+    margin-top: 32rpx;
+    margin-left: 104rpx;
+}
+.gay{
+    color: #a3a3a4;
+}

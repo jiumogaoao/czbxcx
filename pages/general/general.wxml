@@ -1,0 +1,56 @@
+<view class="container">
+    <view class="navFrame">
+        <view class="nav first hl">油卡超市</view>
+        <view class="nav">保险服务</view>
+        <view class="nav">养护特惠</view>
+        <view class="nav">违章查询</view>
+        <view class="clear"></view>
+    </view>
+    <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" id="totalSwiper">
+    <swiper-item>
+      <view class="page" id="oil">
+            <swiper indicator-dots="true"
+                autoplay="true" interval="5000" duration="1000" id="oilSwiper">
+                    <swiper-item>
+                        <image src="images/banner.jpg"></image>
+                    </swiper-item>
+                    <swiper-item>
+                    <image src="images/banner.jpg"></image>
+                    </swiper-item>
+                    <swiper-item>
+                    <image src="images/banner.jpg"></image>
+                    </swiper-item>
+                    <swiper-item>
+                    <image src="images/banner.jpg"></image>
+                    </swiper-item>
+                    </swiper>
+            <view class="space"></view>
+            <view class="des">一卡在手，加油无忧！ 会员尽享<span class="red">9.8</span>折</view>
+            <view class="selectFrame">
+                <picker bindchange="cardChange" value="{{index}}" range="{{array}}" id="cardSelect">
+    <view class="picker">
+      油卡选择：{{array[index]}}
+    </view>
+  </picker>
+<picker bindchange="placeChange" value="{{index}}" range="{{array}}" id="placeSelect">
+    <view class="picker">
+      区域选择：{{array[index]}}
+    </view>
+  </picker>
+  <view class="clear"></view>
+            </view>
+            <view class="cardTitle">中国石化<span class="gay">(加油卡）</span></view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="page"></view>
+    </swiper-item>
+    <swiper-item>
+      <view class="page"></view>
+    </swiper-item>
+    <swiper-item>
+      <view class="page"></view>
+    </swiper-item>
+    </swiper>
+</view>
