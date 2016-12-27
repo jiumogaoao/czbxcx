@@ -76,3 +76,292 @@
 .gay{
     color: #a3a3a4;
 }
+#oil .card{
+    width: 421rpx;
+    height: 365rpx;
+    display: block;
+    margin: auto;
+    margin-top: 30rpx;
+}
+#oil .cardDsc{
+    font-size: 16rpx;
+    text-align: center;
+    width:750rpx;
+    margin-top: 40rpx;
+    color: #626261;
+}
+#insurance .bannerFrame{
+    width: 750rpx;
+    height: 367rpx;
+    position: relative;
+}
+#insurance .bannerFrame image{
+    width: 750rpx;
+    height: 367rpx;
+}
+#insurance .bannerFrame button{
+    width: 233rpx;
+    height: 56rpx;
+    position: absolute;
+    left: 267rpx;
+    bottom: 12rpx;
+    background-color: transparent;
+}
+#insurance .selectFrame{
+    width: 750rpx;
+    height: 92rpx;
+    background-color: #ffffff;
+}
+#insurance picker{
+    float: left;
+    width: 24.5%;
+    text-align: center;
+    border-right: 1px solid #ecedf1;
+    height: 80rpx;
+    margin-top: 7rpx;
+}
+#insurance picker.last{
+    border-right:0rpx;
+}
+#insurance .picker{
+    font-size: 20rpx;
+    line-height: 80rpx;
+}
+#insurance .pointHead{
+    width: 750rpx;
+    height: 38rpx;
+    text-align: center;
+    line-height: 38rpx;
+    font-size: 22rpx;
+}
+#insurance .pointCenter{
+    width:750rpx;
+    height: 366rpx;
+    border-bottom: 1rpx solid #ececec;
+    position: relative;
+}
+#insurance .pointCenter image{
+    width:750rpx;
+    height: 366rpx;
+}
+#insurance .pointCenter .buttonLeft{
+    width: 128rpx;
+    height: 33rpx;
+    position: absolute;
+    left: 238rpx;
+    bottom:14rpx;
+    background-color: transparent;
+}
+#insurance .pointCenter .buttonRight{
+    width: 128rpx;
+    height: 33rpx;
+    position: absolute;
+    right: 238rpx;
+    bottom:14rpx;
+    background-color: transparent;
+}
+#insurance .pointBottom{
+    width:750rpx;
+    height: 164rpx;
+    background-color: #fff;
+}
+#insurance .pointBottomLeft{
+    width: 190rpx;
+    height: 70rpx;
+    border-right: 1px solid #ecedf1;
+    margin-top: 38rpx;
+    float:left;
+}
+#insurance .pointBottomTitle{
+    font-size: 24rpx;
+    color: #90c320;
+    font-weight: bold;
+    margin-left: 40rpx;
+}
+#insurance .pointBottomCount{
+    font-size: 11rpx;
+    margin-left: 40rpx;
+    margin-top: 10rpx;
+}
+#insurance progress{
+    width: 115rpx;
+    height: 7rpx;
+    margin-left: 40rpx;
+    margin-top: 4rpx;
+    border-radius: 7rpx;
+}
+#insurance .pointBottomCenter{
+    width:516rpx;
+    height: 164rpx;
+    float: left;
+    overflow: hidden;
+}
+#insurance .pointBottomCenterRoll{
+    width:10086rpx;
+    height: 164rpx;
+}
+#insurance .pointPomoFrame{
+    float: left;
+    width: 90rpx;
+    height: 90rpx;
+    border: 2rpx solid #f4f5f7;
+    margin-left: 10rpx;
+    margin-top: 25rpx;
+}
+#insurance .pointPomoFrame image{
+    width: 80rpx;
+    height: 80rpx;
+    display: block;
+    position: relative;
+    top:5rpx;
+    left:5rpx;
+}
+#insurance .pointBottomRight{
+    float: left;
+    width:17rpx;
+    height: 31rpx;
+    margin-top: 60rpx;
+    margin-left: 10rpx;
+}
+#curing #curingSwiper{
+    width: 750rpx;
+    height: 350rpx;
+}
+#curing #curingSwiper image{
+    width: 750rpx;
+    height: 350rpx;
+}
+#curing .navFrame{
+    width: 750rpx;
+    height: 154rpx;
+    border-top: 1rpx solid #d9d9dc;
+    border-bottom: 1rpx solid #d9d9dc;
+    background-color: #fff;
+    margin-top: 10rpx;
+}
+#curing .nav{
+    width:49%;
+    float: left;
+    height: 82rpx;
+    position: relative;
+    margin-top: 35rpx;
+}
+#curing .nav.left{
+    border-right:2rpx solid #d9d9dc;
+}
+#curing .navIcon{
+    width: 92rpx;
+    height: 93rpx;
+    position: absolute;
+    top:-3rpx;
+    left: 40rpx;
+}
+#curing .navTitle{
+    width: 100%;
+    left: 20rpx;
+    line-height: 82rpx;
+    position:absolute;
+    top:0rpx;
+}
+#curing .subNavIcon{
+    width: 52rpx;
+    height: 52rpx;
+    position:absolute;
+    top:30rpx;
+    left: 270rpx;
+}
+#curing .shopFrame{
+    width: 750rpx;
+    background-color: #fff; 
+    margin-top: 20rpx;
+}
+#curing .shopHead{
+    width: 750rpx;
+    height: 68rpx;
+}
+#curing #typeSelect{
+    float: left;
+    font-size: 24rpx;
+    margin-left: 38rpx;
+    line-height: 68rpx;
+}
+#curing .addCar{
+    float: right;
+    font-size: 20rpx;
+    margin-right: 20rpx;
+    margin-top: 10rpx;
+}
+#curing .addCar image{
+    width: 28rpx;
+    height: 28rpx;
+    position: relative;
+    top:5rpx;
+    right:10rpx;
+}
+#curing .shopPoint{
+    width: 170rpx;
+    height: 170rpx;
+    border: 1rpx solid #a3a3a4;
+    float: left;
+    margin-right: 17rpx;
+    margin-bottom: 20rpx;
+    position: relative;
+}
+#curing .shopPoint.nm{
+    margin-right: 0rpx;
+}
+#curing .shopPointTitle{
+    font-size: 16rpx;
+    width: 75rpx;
+    margin: auto;
+    margin-top: 34rpx;
+}
+#curing .shopPointPhone{
+    width: 30rpx;
+    height: 30rpx;
+    position: absolute;
+    top:113rpx;
+    left: 45rpx;
+}
+#curing .shopPointPlace{
+    width: 30rpx;
+    height: 30rpx;
+    position: absolute;
+    top:113rpx;
+    right: 45rpx;
+}
+#peccancy .point{
+    width: 750rpx;
+    height: 288rpx;
+    background-color: #fff;
+    border-bottom: 1rpx solid #a3a3a4;
+}
+#peccancy .pointTop{
+    width: 750rpx;
+    height: 145rpx;
+    border-bottom: 1rpx solid #a3a3a4;
+    line-height: 145rpx;
+}
+#peccancy .pointTop image{
+    width: 81rpx;
+    height: 36rpx;
+    margin-left: 25rpx;
+}
+#peccancy .pointThird{
+    width: 33%;
+    height: 90rpx;
+    float: left;
+    border-right: 1rpx solid #d9d9dc;
+    margin-top: 30rpx;
+}
+#peccancy .pointName{
+    text-align: center;
+    font-size: 22rpx;
+    margin-top: 10rpx;
+}
+#peccancy .pointNumber{
+    text-align: center;
+    font-size: 22rpx;
+    color: red;
+    margin-top: 10rpx;
+}

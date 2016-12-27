@@ -41,16 +41,281 @@
   <view class="clear"></view>
             </view>
             <view class="cardTitle">中国石化<span class="gay">(加油卡）</span></view>
+            <image src="images/card0.jpg" class="card"></image>
+            <view class="cardDsc">【注】区域选择：中国石化/中国石油适用于全国，BP卡使用范围仅限于广州市区</view>
       </view>
     </swiper-item>
     <swiper-item>
-      <view class="page"></view>
+      <scroll-view class="page" id="insurance" scroll-y="true">
+        <view class="bannerFrame">
+          <image src="images/insuranceBanner.jpg"></image>
+          <button></button>
+        </view>
+        <view class="selectFrame">
+          <picker bindchange="typeChange" value="{{index}}" range="{{array}}" id="typeSelect">
+            <view class="picker">
+              保险分类：{{array[index]}}
+            </view>
+          </picker>
+          <picker bindchange="typeChange" value="{{index}}" range="{{array}}" id="typeSelect">
+            <view class="picker">
+              地区：{{array[index]}}
+            </view>
+          </picker>
+          <picker bindchange="typeChange" value="{{index}}" range="{{array}}" id="typeSelect">
+            <view class="picker">
+              保险公司：{{array[index]}}
+            </view>
+          </picker>
+          <picker bindchange="typeChange" value="{{index}}" range="{{array}}" id="typeSelect" class="last">
+            <view class="picker">
+              险种：{{array[index]}}
+            </view>
+          </picker>
+        </view>
+        <view class="point">
+          <view class="pointHead">————  实销型保险  ————</view>
+          <view class="pointCenter">
+              <image src="images/insurance0.jpg"></image>
+              <button class="buttonLeft"></button>
+              <button class="buttonRight"></button>
+          </view>
+          <view class="pointBottom">
+            <view class="pointBottomLeft">
+              <view class="pointBottomTitle">实销型保险</view>
+              <view class="pointBottomCount">已参与商家</view>
+              <progress percent="20"/>
+            </view>
+            <view class="pointBottomCenter">
+              <view class="pointBottomCenterRoll">
+                <view class="pointPomoFrame">
+                  <image src="images/insurancePomo0.jpg"></image>
+                </view>
+                <view class="pointPomoFrame">
+                  <image src="images/insurancePomo1.jpg"></image>
+                </view>
+                <view class="pointPomoFrame">
+                  <image src="images/insurancePomo2.jpg"></image>
+                </view>
+                <view class="pointPomoFrame">
+                  <image src="images/insurancePomo3.jpg"></image>
+                </view>
+                <view class="pointPomoFrame">
+                  <image src="images/insurancePomo4.jpg"></image>
+                </view>
+              </view>
+            </view>
+            <image src="images/right.jpg" class="pointBottomRight"></image>
+            <view class="clear"></view>
+          </view>
+        </view>
+        <view class="point">
+          <view class="pointHead">————  传统型保险  ————</view>
+          <view class="pointCenter">
+              <image src="images/insurance1.jpg"></image>
+              <button class="buttonLeft"></button>
+              <button class="buttonRight"></button>
+          </view>
+          <view class="pointBottom">
+            <view class="pointBottomLeft">
+              <view class="pointBottomTitle">传统型保险</view>
+              <view class="pointBottomCount">已参与商家</view>
+              <progress percent="20"/>
+            </view>
+            <view class="pointBottomCenter">
+              <view class="pointBottomCenterRoll">
+                <view class="pointPomoFrame">
+                  <image src="images/insurancePomo0.jpg"></image>
+                </view>
+                <view class="pointPomoFrame">
+                  <image src="images/insurancePomo1.jpg"></image>
+                </view>
+                <view class="pointPomoFrame">
+                  <image src="images/insurancePomo2.jpg"></image>
+                </view>
+                <view class="pointPomoFrame">
+                  <image src="images/insurancePomo3.jpg"></image>
+                </view>
+                <view class="pointPomoFrame">
+                  <image src="images/insurancePomo4.jpg"></image>
+                </view>
+              </view>
+            </view>
+            <image src="images/right.jpg" class="pointBottomRight"></image>
+            <view class="clear"></view>
+          </view>
+        </view>
+      </scroll-view>
     </swiper-item>
     <swiper-item>
-      <view class="page"></view>
+      <view class="page" id="curing">
+          <swiper indicator-dots="true"
+                autoplay="true" interval="5000" duration="1000" id="curingSwiper">
+                    <swiper-item>
+                        <image src="images/banner.jpg"></image>
+                    </swiper-item>
+                    <swiper-item>
+                    <image src="images/banner.jpg"></image>
+                    </swiper-item>
+                    <swiper-item>
+                    <image src="images/banner.jpg"></image>
+                    </swiper-item>
+                    <swiper-item>
+                    <image src="images/banner.jpg"></image>
+                    </swiper-item>
+          </swiper>
+          <view class="navFrame">
+            <view class="nav left">
+              <image src="images/curingNav0.jpg" class="navIcon"></image>
+              <view class="navTitle">4S店保养</view>
+              <image src="images/curingSubNav0.jpg" class="subNavIcon"></image>
+            </view>
+            <view class="nav">
+              <image src="images/curingNav1.jpg" class="navIcon"></image>
+              <view class="navTitle">4S店保养</view>
+              <image src="images/curingSubNav1.jpg" class="subNavIcon"></image>
+            </view>
+            <view class="clear"></view>
+          </view>
+          <view class="shopFrame">
+              <view class="shopHead">
+                <picker bindchange="typeChange" value="{{index}}" range="{{array}}" id="typeSelect">
+                  <view class="picker">
+                    保险分类：{{array[index]}}
+                  </view>
+                </picker>
+                <view class="addCar"><image src="images/curingAdd.jpg"></image>添加爱车</view>
+                <view class="clear"></view>
+              </view>
+              <view class="shopPointFrame">
+                <view class="shopPoint">
+                  <view class="shopPointTitle">
+                    定位周边4s保养店
+                  </view>
+                  <image src="images/curingPhone.jpg" class="shopPointPhone"></image>
+                  <image src="images/curingPlace.jpg" class="shopPointPlace"></image>
+                </view>
+                <view class="shopPoint">
+                  <view class="shopPointTitle">
+                    定位周边4s保养店
+                  </view>
+                  <image src="images/curingPhone.jpg" class="shopPointPhone"></image>
+                  <image src="images/curingPlace.jpg" class="shopPointPlace"></image>
+                </view>
+                <view class="shopPoint">
+                  <view class="shopPointTitle">
+                    定位周边4s保养店
+                  </view>
+                  <image src="images/curingPhone.jpg" class="shopPointPhone"></image>
+                  <image src="images/curingPlace.jpg" class="shopPointPlace"></image>
+                </view>
+                <view class="shopPoint nm">
+                  <view class="shopPointTitle">
+                    定位周边4s保养店
+                  </view>
+                  <image src="images/curingPhone.jpg" class="shopPointPhone"></image>
+                  <image src="images/curingPlace.jpg" class="shopPointPlace"></image>
+                </view>
+
+                <view class="shopPoint">
+                  <view class="shopPointTitle">
+                    定位周边4s保养店
+                  </view>
+                  <image src="images/curingPhone.jpg" class="shopPointPhone"></image>
+                  <image src="images/curingPlace.jpg" class="shopPointPlace"></image>
+                </view>
+                <view class="shopPoint">
+                  <view class="shopPointTitle">
+                    定位周边4s保养店
+                  </view>
+                  <image src="images/curingPhone.jpg" class="shopPointPhone"></image>
+                  <image src="images/curingPlace.jpg" class="shopPointPlace"></image>
+                </view>
+                <view class="shopPoint">
+                  <view class="shopPointTitle">
+                    定位周边4s保养店
+                  </view>
+                  <image src="images/curingPhone.jpg" class="shopPointPhone"></image>
+                  <image src="images/curingPlace.jpg" class="shopPointPlace"></image>
+                </view>
+                <view class="shopPoint nm">
+                  <view class="shopPointTitle">
+                    定位周边4s保养店
+                  </view>
+                  <image src="images/curingPhone.jpg" class="shopPointPhone"></image>
+                  <image src="images/curingPlace.jpg" class="shopPointPlace"></image>
+                </view>
+                <view class="clear"></view>
+              </view>
+          </view>
+      </view>
     </swiper-item>
     <swiper-item>
-      <view class="page"></view>
+      <view class="page" id="peccancy">
+        <view class="point">
+          <view class="pointTop">
+            <image src="images/peccancyIcon.jpg"></image>
+            辽L**885
+          </view>
+          <view class="pointBottom">
+            <view class="pointThird">
+              <view class="pointName">违章</view>
+              <view class="pointNumber">0</view>
+            </view>
+            <view class="pointThird">
+              <view class="pointName">罚款</view>
+              <view class="pointNumber">0</view>
+            </view>
+            <view class="pointThird">
+              <view class="pointName">扣分</view>
+              <view class="pointNumber">0</view>
+            </view>
+            <view class="clear"></view>
+          </view>
+        </view>
+        <view class="point">
+          <view class="pointTop">
+            <image src="images/peccancyIcon.jpg"></image>
+            辽L**885
+          </view>
+          <view class="pointBottom">
+            <view class="pointThird">
+              <view class="pointName">违章</view>
+              <view class="pointNumber">0</view>
+            </view>
+            <view class="pointThird">
+              <view class="pointName">罚款</view>
+              <view class="pointNumber">0</view>
+            </view>
+            <view class="pointThird">
+              <view class="pointName">扣分</view>
+              <view class="pointNumber">0</view>
+            </view>
+            <view class="clear"></view>
+          </view>
+        </view>
+        <view class="point">
+          <view class="pointTop">
+            <image src="images/peccancyIcon.jpg"></image>
+            辽L**885
+          </view>
+          <view class="pointBottom">
+            <view class="pointThird">
+              <view class="pointName">违章</view>
+              <view class="pointNumber">0</view>
+            </view>
+            <view class="pointThird">
+              <view class="pointName">罚款</view>
+              <view class="pointNumber">0</view>
+            </view>
+            <view class="pointThird">
+              <view class="pointName">扣分</view>
+              <view class="pointNumber">0</view>
+            </view>
+            <view class="clear"></view>
+          </view>
+        </view>
+      </view>
     </swiper-item>
     </swiper>
 </view>
